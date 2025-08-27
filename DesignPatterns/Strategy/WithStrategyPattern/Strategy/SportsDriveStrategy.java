@@ -1,6 +1,6 @@
-package WithoutStrategyPattern;
+package DesignPatterns.Strategy.WithStrategyPattern.Strategy;
 
-public class SportVehicle extends Vehicle {
+public class SportsDriveStrategy implements DriveStrategy{
     @Override
     public void drive(){
         //drive vehicle
